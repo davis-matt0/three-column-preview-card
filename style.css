@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5rem;
+}
+
+.car-desc {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+}
+
+.learn-more,
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.learn-more {
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: 100px;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.sedan-link {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-link {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-link {
+  color: hsl(179, 100%, 13%);
+}
+
+.card {
+  width: 85%;
+  margin: 5em auto 1em auto;
+  border-radius: 1em;
+}
+
+section {
+  padding: 3.5em 3em;
+}
+
+.sedan-section {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.suv-section {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-section {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
