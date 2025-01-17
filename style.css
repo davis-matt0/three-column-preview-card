@@ -15,6 +15,56 @@ body {
 
 h2 {
   font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5rem;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+}
+
+.learn-more {
+  display: inline-block;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1em 2em;
+  border-radius: 100px;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.sedan-link {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-link {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-link {
+  color: hsl(179, 100%, 13%);
+}
+
+.card {
+  width: 85%;
+  margin: 5em auto;
+  border-radius: 1em;
+}
+
+section {
+  padding: 3.5em 3em;
+}
+
+.sedan-section {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv-section {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-section {
+  background-color: hsl(179, 100%, 13%);
 }
 
 .attribution {
