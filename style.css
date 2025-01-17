@@ -37,6 +37,12 @@ body {
   margin-top: 1em;
 }
 
+.learn-more:hover,
+.learn-more:focus {
+  color: white;
+  border: 2px solid white;
+}
+
 .sedan-link {
   color: hsl(31, 77%, 52%);
 }
@@ -47,6 +53,21 @@ body {
 
 .luxury-link {
   color: hsl(179, 100%, 13%);
+}
+
+.sedan-link:hover,
+.sedan-link:focus {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv-link:hover,
+.suv-link:focus {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-link:hover,
+.luxury-link:focus {
+  background-color: hsl(179, 100%, 13%);
 }
 
 .card {
@@ -81,4 +102,34 @@ section {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1000px) {
+  .card {
+    width: 55%;
+    display: flex;
+    margin: 15em auto 1em auto;
+  }
+
+  .car-desc {
+    line-height: 1.7;
+  }
+
+  .learn-more {
+    margin-top: 4em;
+  }
+
+  section {
+    padding: 5em 4.5em;
+  }
+
+  .sedan-section {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5em;
+  }
+
+  .luxury-section {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.5em;
+  }
 }
